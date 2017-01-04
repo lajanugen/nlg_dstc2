@@ -6,10 +6,10 @@ The main.lua script is used to for training/evaluation. Adjust the hyperparamete
 For training, set run\_flow=True, generate\_test=False and run the script as follows
 
 ```
-th main.lua <gpu_id> <Run description>
+th main.lua <gpu id> <Run description>
 ```
 
-where ```<gpu\_id>``` indicates the GPU to use and ```<Run description>``` a description of the experiment. The descriptions are logged into ```results/descriptions``` and a folder is created in the results folder corresponding to the run.
+where ```<gpu id>``` indicates the GPU to use and ```<Run description>``` a description of the experiment. The descriptions are logged into ```results/descriptions```, an id number is assigned to the current run, and a folder is created in the results folder corresponding to the id.
 
 Training prints validation error and writes checkpoints to the ```results/<id>/models``` folder where ```<id>``` is the id of the experiment.
 
