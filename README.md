@@ -1,6 +1,8 @@
 
 This repository implements the conditional language generation model of Wen et al. for the DSTC2 restaurant domain data.
 
+Data: Download DSTC2 data from ```http://camdial.org/~mh521/dstc/```. Create a folder named ```data``` in the same level as the src folder. Organize the downloaded data so that the data folder will have sub-directories named config, train and test where the train and test directories will consist of the actual data ("Mar*") from the relevant zip files.
+
 The main.lua script is used to for training/evaluation. Adjust the hyperparameter values at the beginning of the script as necessary.
 
 For training, set run\_flow=True, generate\_test=False and run the script as follows
