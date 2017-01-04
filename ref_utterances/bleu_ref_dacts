@@ -1,0 +1,262 @@
+,57,58,69,90
+request(pricerange;) inform(count=109;) impl-conf(food=dontcare;) impl-conf(area=dontcare;) 
+
+,101,110
+select(food=dontcare;) select(food=vietnamese;) 
+
+,61,62,76
+offer(name=dojo noodle bar;) inform(food=asian oriental;) inform(area=centre;) 
+offer(name=ali baba;) inform(food=lebanese;) inform(area=centre;) 
+
+,73,76
+offer(name=the slug and lettuce;) inform(phone=dontcare;) 
+
+,87
+request(area;) 
+request(area;) 
+
+,35
+expl-conf(area=south;) 
+
+,57,69,88
+request(food;) inform(count=110;) impl-conf(area=dontcare;) 
+
+,49,69,90
+request(pricerange;) inform(count=2;) impl-conf(food=portuguese;) 
+
+,66,76
+offer(name=cotto;) inform(phone=01223 302010;) 
+
+,49,59,69,87
+request(area;) inform(count=2;) impl-conf(food=portuguese;) impl-conf(pricerange=dontcare;) 
+
+,9,12,115
+canthelp(pricerange=cheap;area=east;) canthelp.exception(name=the missing sock;) 
+
+,61,64,76
+offer(name=pizza hut cherry hinton;) inform(pricerange=moderate;) inform(area=south;) 
+offer(name=the lucky star;) inform(pricerange=cheap;) inform(area=south;) 
+
+,58,69,87
+request(area;) inform(count=109;) impl-conf(food=dontcare;) 
+
+,9,10,12,115,115
+canthelp(pricerange=expensive;food=mediterranean;area=centre;) canthelp.exception(name=la mimosa;) canthelp.exception(name=shiraz restaurant;) 
+
+,38
+expl-conf(pricerange=cheap;) 
+
+,66,67,76
+offer(name=the gardenia;) inform(phone=01223 356354;) inform(postcode=c.b 2;) 
+offer(name=shiraz restaurant;) inform(postcode=c.b 2;) inform(phone=01223 307581;) 
+offer(name=gourmet burger kitchen;) inform(phone=01223 312598;) inform(postcode=c.b 2;) 
+offer(name=michaelhouse cafe;) inform(phone=01223 309147;) inform(postcode=c.b 2;) 
+offer(name=restaurant two two;) inform(phone=01223 351880;) inform(postcode=c.b 4;) 
+
+,9,10,115,115
+canthelp(area=centre;food=international;) canthelp.exception(name=the varsity restaurant;) canthelp.exception(name=bloomsbury restaurant;) 
+
+,49,51,69,87
+request(area;) inform(count=4;) impl-conf(food=chinese;) impl-conf(pricerange=moderate;) 
+
+,10,12
+canthelp(pricerange=moderate;food=swedish;) 
+canthelp(food=thai;pricerange=cheap;) 
+
+,51,58,69,87
+request(area;) inform(count=31;) impl-conf(food=dontcare;) impl-conf(pricerange=moderate;) 
+
+,49,87
+request(area;) impl-conf(food=irish;) 
+
+,44
+expl-conf(area=dontcare;) 
+
+,65,66,67,76
+offer(name=prezzo;) inform(addr=21 - 24 northampton road;) inform(phone=01799 521260;) inform(postcode=c.b 3;) 
+offer(name=da vinci pizzeria;) inform(phone=01223 351707;) inform(addr=20 milton road chesterton;) inform(postcode=c.b 4;) 
+offer(name=yu garden;) inform(addr=529 newmarket road fen ditton;) inform(phone=01223 248882;) inform(postcode=c.b 5;) 
+
+,62,64,76
+offer(name=la tasca;) inform(food=spanish;) inform(pricerange=moderate;) 
+offer(name=anatolia;) inform(food=turkish;) inform(pricerange=moderate;) 
+
+,6
+repeat() 
+repeat() 
+
+,7
+reqmore() 
+
+,65,66,76
+offer(name=meghna;) inform(phone=01223 727410;) inform(addr=205 victoria road chesterton;) 
+
+,62,76
+offer(name=grafton hotel restaurant;) inform(food=british;) 
+offer(name=little seoul;) inform(food=korean;) 
+
+,10,12,115
+canthelp(food=asian oriental;pricerange=moderate;) canthelp.exception(name=yippee noodle bar;) 
+
+,48,49,69,90
+request(pricerange;) inform(count=3;) impl-conf(food=chinese;) impl-conf(area=south;) 
+
+,65,76
+offer(name=the lucky star;) inform(addr=cambridge leisure park clifton way cherry hinton;) 
+
+,9,10,12,115
+canthelp(food=chinese;pricerange=moderate;area=north;) canthelp.exception(name=golden wok;) 
+
+,51,69,88
+request(food;) inform(count=57;) impl-conf(pricerange=expensive;) 
+request(food;) inform(count=31;) impl-conf(pricerange=moderate;) 
+
+,65,67,76
+offer(name=sitar tandoori;) inform(addr=43 high street cherry hinton cherry hinton;) inform(postcode=c.b 1;) 
+offer(name=anatolia;) inform(postcode=c.b 2;) inform(addr=30 bridge street city centre;) 
+offer(name=prezzo;) inform(addr=21 - 24 northampton road;) inform(postcode=c.b 3;) 
+offer(name=meze bar restaurant;) inform(addr=196 mill road city centre;) inform(postcode=c.b 1;) 
+offer(name=yu garden;) inform(postcode=c.b 5;) inform(addr=529 newmarket road fen ditton;) 
+offer(name=meghna;) inform(addr=205 victoria road chesterton;) inform(postcode=c.b 4;) 
+offer(name=thanh binh;) inform(addr=17 magdalene street city centre;) inform(postcode=c.b 3;) 
+
+,48,51,69,88
+request(food;) inform(count=5;) impl-conf(pricerange=expensive;) impl-conf(area=south;) 
+
+,61,62,64,76
+offer(name=frankie and bennys;) inform(food=italian;) inform(pricerange=expensive;) inform(area=south;) 
+offer(name=golden wok;) inform(food=chinese;) inform(pricerange=moderate;) inform(area=north;) 
+
+,48,51,88
+request(food;) impl-conf(pricerange=expensive;) impl-conf(area=south;) 
+
+,48,58,69,90
+request(pricerange;) inform(count=9;) impl-conf(food=dontcare;) impl-conf(area=south;) 
+
+,49,57,69,90
+request(pricerange;) inform(count=4;) impl-conf(food=gastropub;) impl-conf(area=dontcare;) 
+
+,48,69,88
+request(food;) inform(count=9;) impl-conf(area=south;) 
+
+,9,10,115
+canthelp(area=centre;food=french;) canthelp.exception(name=cote;) 
+
+,100,109
+select(area=dontcare;) select(area=east;) 
+
+,49,69,87
+request(area;) inform(count=15;) impl-conf(food=italian;) 
+
+,9,10
+canthelp(area=south;food=mediterranean;) 
+canthelp(area=west;food=chinese;) 
+canthelp(area=north;food=north american;) 
+
+,9,12,115,115
+canthelp(area=south;pricerange=cheap;) canthelp.exception(name=nandos;) canthelp.exception(name=the lucky star;) 
+
+,10,115
+canthelp(food=korean;) canthelp.exception(name=little seoul;) 
+
+,36
+expl-conf(food=barbeque;) 
+
+,67,76
+offer(name=galleria;) inform(postcode=c.b 2;) 
+offer(name=anatolia;) inform(postcode=c.b 2;) 
+offer(name=taj tandoori;) inform(postcode=c.b 1;) 
+offer(name=loch fyne;) inform(postcode=c.b 2;) 
+offer(name=yu garden;) inform(postcode=c.b 5;) 
+offer(name=gourmet burger kitchen;) inform(postcode=c.b 2;) 
+offer(name=the lucky star;) inform(postcode=c.b 1;) 
+offer(name=the good luck chinese food takeaway;) inform(postcode=c.b 1;) 
+offer(name=pizza hut fen ditton;) inform(postcode=c.b 5;) 
+offer(name=restaurant alimentum;) inform(postcode=c.b 2;) 
+offer(name=the cow pizza kitchen and bar;) inform(postcode=c.b 2;) 
+offer(name=michaelhouse cafe;) inform(postcode=c.b 2;) 
+offer(name=the missing sock;) inform(postcode=c.b 25;) 
+offer(name=sitar tandoori;) inform(postcode=c.b 1;) 
+offer(name=la raza;) inform(postcode=c.b 2;) 
+offer(name=prezzo;) inform(postcode=c.b 3;) 
+offer(name=la tasca;) inform(postcode=c.b 2;) 
+offer(name=little seoul;) inform(postcode=c.b 2;) 
+offer(name=bloomsbury restaurant;) inform(postcode=c.b 2;) 
+offer(name=thanh binh;) inform(postcode=c.b 3;) 
+offer(name=meze bar restaurant;) inform(postcode=c.b 1;) 
+offer(name=curry prince;) inform(postcode=c.b 5;) 
+offer(name=eraina;) inform(postcode=c.b 2;) 
+offer(name=peking restaurant;) inform(postcode=c.b 2;) 
+offer(name=la mimosa;) inform(postcode=c.b 5;) 
+offer(name=royal spice;) inform(postcode=c.b 4;) 
+offer(name=saigon city;) inform(postcode=c.b 4;) 
+offer(name=hotel du vin and bistro;) inform(postcode=c.b 2;) 
+offer(name=dojo noodle bar;) inform(postcode=c.b 2;) 
+offer(name=the varsity restaurant;) inform(postcode=c.b 2;) 
+offer(name=backstreet bistro;) inform(postcode=c.b 1;) 
+offer(name=cambridge lodge restaurant;) inform(postcode=c.b 3;) 
+offer(name=bedouin;) inform(postcode=c.b 1;) 
+offer(name=rajmahal;) inform(postcode=c.b 5;) 
+offer(name=the nirala;) inform(postcode=c.b 4;) 
+offer(name=meghna;) inform(postcode=c.b 4;) 
+offer(name=royal standard;) inform(postcode=c.b 1;) 
+offer(name=da vinci pizzeria;) inform(postcode=c.b 4;) 
+offer(name=ali baba;) inform(postcode=c.b 2;) 
+offer(name=sala thong;) inform(postcode=c.b 3;) 
+offer(name=restaurant two two;) inform(postcode=c.b 4;) 
+offer(name=efes restaurant;) inform(postcode=c.b 1;) 
+
+,90
+request(pricerange;) 
+
+,4
+confirm-domain() 
+
+,10
+canthelp(food=english;) 
+canthelp(food=caribbean;) 
+
+,88
+request(food;) 
+
+,61,76
+offer(name=hakka;) inform(area=north;) 
+offer(name=nandos;) inform(area=south;) 
+
+,45
+expl-conf(food=dontcare;) 
+
+,100,100
+select(area=east;) select(area=north;) 
+
+,103,111
+select(pricerange=dontcare;) select(pricerange=cheap;) 
+
+,76
+offer(name=royal spice;) 
+
+,64,76
+offer(name=sala thong;) inform(pricerange=expensive;) 
+offer(name=nandos city centre;) inform(pricerange=cheap;) 
+offer(name=meze bar restaurant;) inform(pricerange=expensive;) 
+
+,10,115,115
+canthelp(food=portuguese;) canthelp.exception(name=nandos city centre;) canthelp.exception(name=nandos;) 
+
+,8
+welcomemsg() 
+welcomemsg() 
+
+,9,10,12
+canthelp(area=west;pricerange=expensive;food=italian;) 
+canthelp(food=chinese;area=east;pricerange=moderate;) 
+
+,101,101
+select(food=bistro;) select(food=turkish;) 
+
+,103,103
+select(pricerange=cheap;) select(pricerange=moderate;) 
+
+,46
+expl-conf(pricerange=dontcare;) 
+

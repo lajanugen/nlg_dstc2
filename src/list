@@ -1,0 +1,8 @@
+-- data properties necessary for online sampling --
+vocab_map
+ivocab_map
+START_SYMBOL
+STOP_SYMBOL
+islot_index
+NSSacts
+system_actslot_inds
