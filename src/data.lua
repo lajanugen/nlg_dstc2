@@ -260,7 +260,7 @@ end
 function data:read_data(tvt)
 
 	--path = '/home/llajan/data'
-	path = '../../data'
+	path = '../data'
 	dir_prefix = {	    path .. '/train/',
 						path .. '/train/',
 						path .. '/test/'}

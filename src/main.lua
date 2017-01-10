@@ -17,7 +17,7 @@ end
 require('nngraph')
 require('utils.base')
 require('gnuplot')
-require('models.GloVeEmbedding')
+--require('models.GloVeEmbedding')
 require('utils.flatten')
 require('models.lstms')
 require('optim')
@@ -32,8 +32,10 @@ opt = {	optimizer='sgd',
 		momentum=0.5
 	}
 		
-params = {		run_flow=true,
-				generate_test=false,
+params = {		--run_flow=true,
+				--generate_test=false,
+				run_flow=false,
+				generate_test=true,
 				--grad_check_eps=0.00015--1e-3
 	
 				batch_size=50,
@@ -96,7 +98,7 @@ params = {		run_flow=true,
 
 				custom_optimizer=false,
 				pre_init_mdl=false,
-				pre_init_mdl_path='../results/19/models/fwd_model60',
+				pre_init_mdl_path='../results/7/models/fwd_model10',
 				--pre_init_mdl_path='../results/results_test/44/models/fwd_model',
 
 				grad_checking=false,
@@ -125,13 +127,13 @@ for line in descriptions_read:lines() do if line then last_line = line end end
 line = string.split(last_line," ")
 g_init_gpu(arg)
 if #arg > 0 then
-	if arg[1] == '0' then
+	if arg[2] == '0' then
 		results_number = line[1]
 	else
 		results_number = tostring(tonumber(line[1]) + 1)
-		descriptions_write:write(results_number .. ' ' .. arg[1] .. '\n')
+		descriptions_write:write(results_number .. ' ' .. arg[2] .. '\n')
 	end
-	arg[1] = nil
+	arg[2] = nil
 else
 	error("Enter description")
 end
